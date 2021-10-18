@@ -1,0 +1,96 @@
+/* ========= RESPONS ========== */
+
+@media screen and (max-width: 1320px){
+    .banner {
+        background-image: url('../images/arctic-membros.jpg');
+        background-size: 100%;
+        background-position: top;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .grid-members {
+        background: none;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 90%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .bt-menu {
+        display: initial;
+    }
+
+    .menu {
+        /* display: initial; */
+        position: absolute;
+        display: block;
+        transition: 1s;
+        height: 0px;
+        margin: 0;
+        top: 70px;
+        left: 0;
+        background-color: rgb(46, 46, 46);
+        width: 100%;
+        text-align: center;
+        overflow: hidden;   
+    }
+
+    .menu ul li {
+        margin: 0;
+        padding: 20px 0 20px 0;
+        display: block;
+    }
+
+    .menu ul :hover {
+        background-color: rgb(34, 34, 34);
+    }
+
+    .bt-spotify {
+        display: none;
+    }
+
+    .banner {
+        background-image: url('../images/arctic-membros.jpg');
+        background-size: 120%;
+        background-position: top;
+        background-repeat: repeat-y;
+        height: 55vh;
+    }
+
+    .bt-arctic {
+        font-size: 16px;
+        height: 40px;
+        width: 140px;
+    }
+
+    .contents {
+        margin: 40px 10% 40px 10%;
+    }
+
+    .contents p {
+        margin: 40px 0 40px 0;
+    }
+
+    .grid {
+        background-color: rgb(34, 34, 34);
+        grid-template-columns: 50% 50%;
+    }
+
+    .grid-members {
+        background: none;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 90%;
+    }
+    
+    .contents ul {
+        margin: 40px 0 40px 0;
+    }
+
+    .form-container form {
+        margin: 0 5% 0 5%;
+    }
+} 

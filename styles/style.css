@@ -1,0 +1,281 @@
+.logo {
+    width: 80px;
+}
+
+.menu {
+    
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+.menu ul li :hover {
+    color: rgb(168, 168, 168);
+}
+
+.bt-menu {
+    display: none;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: unset;
+    background-image: url('../images/button.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bt {
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+}
+
+.bt-spotify {
+    background-color: #00d95f;
+    color: white;
+    margin: 0 0 0 30px;
+}
+
+.bt-spotify:hover {
+    transition: 0.5s;
+    background-color: #505050;
+}
+
+.img-spotify {
+    margin: 0 5px 0 0;
+    height: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-size: min(40px, 5vw);
+}
+
+.bt-arctic {
+    margin: 15px 0 0 0;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+}
+
+.bt-arctic:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(14, 14, 14);
+
+}
+
+.line {
+    width: 60px;
+    height: 10px;
+    background: #f0b632;
+}
+
+.contents {
+    font-size: max(16px, 1.2vw);
+}
+
+.contents h1 {
+    font-size: max(35px, 3.5vw);
+}
+
+.contents p {
+    margin: 50px 0 50px 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.contents ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+
+.contents li {
+    margin-bottom: 20px;
+}
+
+.grid {
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid .container:hover {
+    transition: 1s;
+    padding: 25%;
+}  
+
+.container {
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container img {
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+}
+
+/* Membros */
+
+.grid-members {
+    background: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+}
+
+.members {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.members img {
+    width: 250px;
+    margin: 0 0 20px 0;
+}
+
+.members h2 {
+    margin: 0 0 20px 0;
+}
+
+.members p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.bt-members {
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f0b632;
+    border-radius: 10px;
+}
+
+.bt-members:hover {
+    transition: 0.5s;
+    background-color: #ffcf60;
+}
+  /* ALBUNS */
+table {
+    margin: 30px 0;
+    border: solid 1px #d6d6d6;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bt-acessar {
+    background-color: #00d95f;
+    font-size: 15px;  
+}
+
+.bt-acessar:hover {
+    transition: 0.5s;
+    background-color: #505050;
+}
+
+.bt-acessar a {
+    color: white;
+}
+
+td, th {
+    text-align: left;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #d6d6d6;
+}
+
+.albuns {
+    margin-top: 30px;
+}
+
+.albuns h1 {
+    font-size: max(35px, 3.5vw);
+}
+
+.form-container {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+.form-container h1 {
+    margin: 0 0 15px 0;
+}
+
+.form-container form {
+    margin: 0 25% 0 25%;
+}
+
+
+input, select {
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+    margin: 10px 0px 30px 0px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border: solid 1px rgb(214, 214, 214);
+    height: 40px;
+    border-radius: 5px;
+}
+
+.submite {
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0b632;
+    margin-top: 20px;
+}
+
+.submite:hover {
+    color: white;
+    background-color: #2a2a2a;
+}
